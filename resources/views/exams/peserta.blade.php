@@ -4,7 +4,7 @@
 <div class="main-content">
     <section class="section">
         <div class="section-header">
-            <h1>Assign Student</h1>
+            <h1>Assign Peserta</h1>
         </div>
 
         <div class="section-body">

@@ -207,7 +207,7 @@ class ExamController extends Controller
     public function student($id)
     {
         $exam = Exam::findOrFail($id);
-        return view('exams.student', compact('exam'));
+        return view('exams.peserta', compact('exam'));
     }
 
     public function assign(Request $request, $id)

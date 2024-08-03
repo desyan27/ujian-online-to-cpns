@@ -60,10 +60,10 @@
                 </div>
                 <div class="card-wrap">
                   <div class="card-header">
-                    <h4>STUDENTS</h4>
+                    <h4>PESERTA</h4>
                   </div>
                   <div class="card-body">
-                    {{ App\Models\User::role('student')->count() ?? '0' }}
+                    {{ App\Models\User::role('peserta')->count() ?? '0' }}
                   </div>
                 </div>
               </div>

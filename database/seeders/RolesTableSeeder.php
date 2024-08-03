@@ -19,11 +19,7 @@ class RolesTableSeeder extends Seeder
         ]);
 
         $role2 = Role::create([
-            'name' => 'teacher'
-        ]);
-
-        $role3 = Role::create([
-            'name' => 'student'
+            'name' => 'peserta'
         ]);
     }
 }

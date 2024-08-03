@@ -43,7 +43,7 @@
                                 <th scope="col">TIME</th>
                                 <th scope="col">TOTAL QUESTION</th>
                                 @hasanyrole('teacher|admin')
-                                <th scope="col">ASSIGN STUDENT</th>
+                                <th scope="col">ASSIGN PESERTA</th>
                                 @endhasanyrole
                                 @hasrole('student')
                                 <th scope="col">SCORE</th>

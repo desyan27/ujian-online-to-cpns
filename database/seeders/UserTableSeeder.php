@@ -20,7 +20,7 @@ class UserTableSeeder extends Seeder
         $userCreate = User::create([
             'name'      => 'Admin',
             'email'     => 'admin@gmail.com',
-            'password'  => bcrypt('password')
+            'password'  => bcrypt('admin123')
         ]);
 
         //assign permission to role

@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no" name="viewport">
     <meta name="csrf-token" content="{{ csrf_token() }}">
-    <title>Dashboard &mdash; UJIAN</title>
+    <title>Dashboard &mdash; TRYOUT CPNS</title>
     <link rel="shortcut icon" href="{{ asset('assets/img/gear.svg') }}" type="image/x-icon">
     <!-- General CSS Files -->
     <link rel="stylesheet" href="{{ asset('assets/modules/bootstrap/css/bootstrap.min.css') }}">
@@ -29,7 +29,7 @@
     <div id="app">
         <div class="main-wrapper main-wrapper-1">
             <div class="navbar-bg"></div>
-            <nav class="navbar navbar-expand-lg main-navbar">
+            <nav class="navbar navbar-expand-lg main-navbar bg-success">
                 <form class="form-inline mr-auto">
                     <ul class="navbar-nav mr-3">
                         <li><a href="#" data-toggle="sidebar" class="nav-link nav-link-lg"><i
@@ -60,10 +60,7 @@
             <div class="main-sidebar sidebar-style-2">
                 <aside id="sidebar-wrapper">
                     <div class="sidebar-brand">
-                        <a href="index.html">UJIAN APP</a>
-                    </div>
-                    <div class="sidebar-brand sidebar-brand-sm">
-                        <a href="index.html">UJIAN</a>
+                        <a href="/dashboard" class="text-success">TRYOUT TEST CPNS</a>
                     </div>
                     <ul class="sidebar-menu">
                         <li class="menu-header">MAIN MENU</li>
@@ -228,5 +225,4 @@
     </script>
 
     @livewireScripts
-</body>
-</html>
+</bo/dashboard>
